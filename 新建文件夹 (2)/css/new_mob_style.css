@@ -1,0 +1,164 @@
+.footbox2 .container{
+	bottom: -0.7rem!important;
+}
+
+/* 超小屏幕（手机，小于 768px） */
+.lzy_startCustomiz li:hover .lzy_startCustomiz_font {
+    margin-top: 0.3rem;
+}
+/*多选框-下拉框-样式*/
+.new_bobo_main{
+	background: rgba(54, 67, 88,.8);
+}
+.lzy_yuSuan_list2_btn{
+	width: 0.8rem;
+}
+.banner3_font{
+	max-width: none;
+}
+.poem_tage{
+	display: block;
+}
+.poem_tage2{
+	display: none;
+}
+.poem p{
+	margin: 0.5rem 0.1rem 0 0.2rem;
+	letter-spacing: 0.16rem;
+}
+/*移动端底部*/
+
+.moblie_footer{
+	display: none;
+	/*overflow: hidden;*/
+	position: absolute;
+	/*bottom: 40%;*/
+	left: 10%;
+	top:-140px;
+	/*left: 0;*/
+	/*right: 10%;*/
+}
+.moblie_footer .mob_foot_ewm{
+	position: absolute;
+	overflow: hidden;
+	margin-top: 0.1rem;
+}
+.moblie_footer .mob_foot_ewm img{
+	width: 0.7rem;
+	height: 0.7rem;
+	float: left;
+}
+.moblie_footer .mob_foot_ewm div{
+	float: left;
+}
+.moblie_footer .mob_foot_ewm div p{
+	color: #fff;
+	font-size: 0.12rem;
+	/*font-family: PingFangSC;*/
+	line-height: 1.5;
+	letter-spacing: 0.4px;
+	text-align: left;
+	margin-top: 0.1rem;
+	margin-left: 0.1rem;
+}
+
+.pc_tit{display: block;margin: 0 auto;}
+.mob_tit{display: none;}
+/* 小屏幕（平板，大于等于 768px） */
+@media (max-width: 768px) {
+	.moblie_footer_ul{
+		font-size: 0.1rem;
+		color: #fff;
+		line-height: 3;
+		letter-spacing: 1px;
+		text-align: left;
+	}
+	.moblie_footer_ul li{
+		float: left;
+		margin-left: 0.2rem;
+	}
+	.moblie_footer{
+		left: 5%;
+	}
+}
+
+@media (max-width: 768px) {
+	/*首页-你不能错过的风景-左右按钮*/
+	.arrow_left2{right: 10px!important;}
+	.arrow_right2{left: 10px!important;}
+	/*首页-定制你的专属项目-下拉箭头*/
+	.lzy_startCustomiz_icon{margin-top: 0.15rem;}
+	/*首页-hover时字体位置不变*/
+	.lzy_startCustomiz li:hover .lzy_startCustomiz_font {
+	    margin-top: 0rem;
+	}
+	.lzy_tab:hover .lzy_startCustomiz_font{
+		line-height: 0.42rem;
+	}
+	.lzy_tab:hover .lzy_tab_price_ipt{
+		line-height: 0.42rem;
+	}
+	.lzy_tab:hover .lzy_startCustomiz_icon{
+		margin-top: 0.13rem;
+	}
+	/*首页-定制你的专属项目-休闲游*/
+	.banner3_font{
+		/*max-width: 3.5rem;*/
+		margin: 0 0.3rem;
+		background: #fdfdfd;
+	}
+	.banner3_font > .p2{
+		margin: 0px 0 0 0;
+	}
+	/*首页-底部-古诗*/
+	.pc_tit{display: none;}
+	.mob_tit{display: block;}
+	/*首页-底部*/
+	.relative{
+		position: relative;
+	}
+	.moblie_footer{
+		display: block;
+	}
+	.relative .container{
+		display: none;
+	}
+	.moblie_footer_logo{
+		width: 16.3%;
+		float: left;
+	}
+	.moblie_footer_logo img{
+		width: 100%;
+		height: auto;
+	}
+	.moblie_footer_ul{
+		float: left;
+	}
+	/*移动端底部*/
+	.moblie_footer_ul{
+		font-size: 0.12rem;
+		color: #fff;
+		line-height: 3;
+		letter-spacing: 1px;
+		text-align: left;
+		
+	}
+	.moblie_footer_ul *{
+		color: #fff;
+	}
+	.moblie_footer_ul li{
+		float: left;
+		margin-left: 0.25rem;
+	}
+	.moblie_footer_ul li:nth-child(2){
+		/*margin-left: 0.3rem;*/
+	}
+	.moblie_footer_ul li:nth-child(3){
+		/*margin-left: 0.3rem;*/
+	}
+
+	.footbox2 .moblie_footer{
+		top: -40px!important;
+	}
+}
+

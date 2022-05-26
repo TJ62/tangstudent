@@ -1,0 +1,230 @@
+.funH_center3_li .p2{
+	background-image: none;
+	padding-left: 0px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.lzy_allAttr_bck{
+	
+	padding-bottom:0.3rem;
+	background: url(../images/svg/bg_illustration_swordsman.svg) 0 bottom no-repeat;
+	background-size:4.5rem ;
+}
+.lzy_allAttr{
+	max-width: 1100px;
+	margin: 0 auto;
+
+}
+.lzy_allAttr_title{
+	overflow: hidden;
+	margin-top:0.6rem; 
+	margin-bottom:0.3rem;
+	/*padding-left: 0.3rem;*/
+}
+.lzy_allAttr_title a{
+	/*font-family:fzqk,hwst;*/
+}
+.lzy_allAttr_title *{
+	float: left;
+	font-size:0.14rem;
+	text-align: left;
+	color: #5c5c5c;
+}
+
+/*///////////////////////////*/
+.swiper-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gallery-top {
+    width: 100%;
+    position: relative;
+}
+.gallery-top .swiper-slide img{
+	width: 100%;
+}
+.gallery-thumbs {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+.gallery-thumbs .swiper-slide {
+    width: 20%;
+    height: 100%;
+    opacity: 0.4;
+}
+.gallery-thumbs .swiper-slide-active {
+    opacity: 1;
+    border: 1px solid #42494e;
+}
+ .gallery-thumbs .swiper-slide-active img{
+ 	width: 95%;
+ 	height: 95%;
+ 	margin:5px auto;
+ }
+ .gallery-top .swiper-slide img{
+   width: 100%;
+   /*height: 500px;*/
+   height: 675px;
+}
+
+.swiper-button-next{
+	width: 52px;
+	height: 52px;
+	background: url(../images/svg/icon_arrows_lucency.svg) 0 0 no-repeat!important;
+	transform: rotate(180deg);
+	right: 8px;
+	/*right: 60px;*/
+}
+.swiper-button-prev{
+	width: 52px;
+	height: 52px;
+	background: url(../images/svg/icon_arrows_lucency.svg) 0 0 no-repeat!important;
+	left: 8px;
+	/*left: 60px;*/
+}
+/*景点详情*/
+.allArr_introduce{
+	margin: 0.4rem 0;
+}
+.allArr_introduce .p1{
+	width: 100%;
+	font-size: 0.25rem;
+	letter-spacing: 0.8px;
+	text-align: left;
+	/*padding-left: 4px;*/
+	color: #42494e;
+	/*font-family:fzqk,hwst;*/
+}
+.allArr_introduce .i{
+	width: 105px;
+	height: 7px;
+	display: block;
+	background: url(../images/tab_select_red.png) 0 0 no-repeat;
+	background-size: cover;
+	margin: 0.05rem 0 0 0;
+}
+.allArr_introduce .p2{
+	font-size: 0.14rem;
+	font-weight: 300;
+	line-height: 2.57;
+	letter-spacing: 1px;
+	text-align: left;
+	color: #42494e;
+	margin: 0.2rem 0 0.3rem;
+}
+/*.allArr_introduce .p2 p{*/
+	/*text-indent: 2.5em;*/
+/*}*/
+.allArr_introduce .p3{
+	font-size: 0.12rem;
+	font-weight: 300;
+	line-height: 2.57;
+	letter-spacing: 1px;
+	text-align: left;
+	color: #42494e;
+	margin: 0.2rem 0 0.3rem;
+}
+
+/*华山摄影*/
+.photoGraphy{overflow: hidden;}
+.photoGraphy li{
+	/*max-width: 3.56rem;*/
+	max-height: 2.53rem;
+	position: relative;
+	float: left;
+	padding: 0.15rem;
+	margin-bottom:0.21rem;
+	transition: all linear 0.3s;
+	-webkit-transition:all linear 0.3s;
+	-ms-transition:all linear 0.3s;
+	-moz-transition:all linear 0.3s;
+	-o-transition:all linear 0.3s;
+}
+.photoGraphy .li2{
+	margin: 0 20px 21px 20px;
+}
+.photoGraphy li>img{
+	width: 100%;
+	/*height: 233px;*/
+	height: 2.23rem;
+	transition: all linear 0.3s;
+	-webkit-transition:all linear 0.3s;
+	-ms-transition:all linear 0.3s;
+	-moz-transition:all linear 0.3s;
+	-o-transition:all linear 0.3s;
+}
+.photoGraphy_pos{
+	/*width: 100%;
+	height: 100%;*/
+	padding: 0.15rem 0;
+	position: absolute;
+	top:0.15rem;
+	left:0.15rem;
+	bottom: 0.15rem;
+	right: 0.15rem;
+	background: url(../images/abTo_tab_bck.png)  repeat;
+	opacity: 0.8;
+	overflow: hidden;
+	display: none;
+	transition: all linear 0.3s;
+	-webkit-transition:all linear 0.3s;
+	-ms-transition:all linear 0.3s;
+	-moz-transition:all linear 0.3s;
+	-o-transition:all linear 0.3s;
+}
+.photoGraphy li:hover .photoGraphy_pos{
+	display: block;
+	cursor: pointer;
+	transition: all linear 0.3s;
+	-webkit-transition:all linear 0.3s;
+	-ms-transition:all linear 0.3s;
+	-moz-transition:all linear 0.3s;
+	-o-transition:all linear 0.3s;
+}
+
+.photoGraphy_pos p{
+	float: left;
+}
+.photoGraphy_pos_box{
+	overflow: hidden;
+	/*max-width: 2.73rem;*/
+	height: auto;
+	margin: 0.25rem 0.25rem 0 0.25rem;
+}
+.photoGraphy_pos .p1{
+	font-size:0.22rem;
+	letter-spacing: 0.9px;
+	text-align: justify;
+	color: #010101;
+	 /*font-family:fzqk,hwst;*/
+}
+.photoGraphy_pos .p2{
+	font-size: 0.14rem;
+	text-align: center;
+	color: #42494e;
+	line-height:0.33rem;
+	padding-left: 0.1rem;
+	/*font-family:Gotham;*/
+}
+.photoGraphy_pos .p3{
+	float: left;
+	margin:0.2rem auto;
+	/*max-width: 273px;*/
+	font-size: 0.14rem;
+	width: 100%;
+	line-height: 2;
+	text-align: justify;
+	color: #42494e;
+}
+@media screen and (max-width: 1200px) {
+	.lzy_allAttr_title{
+		display: none;
+	}
+	.photoGraphy_pos{
+		bottom: 0.14rem;
+	}
+}

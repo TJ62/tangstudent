@@ -1,0 +1,568 @@
+/* CSS Document */
+* {
+  font-family:SimSun,"Songti SC",Arial,sans-serif;
+}
+body, h1, h2, h3, h4, h5, h6, p, pre, blockquote, dl, dt, dd, ul, ol, li, form, fieldset, legend, button, th, td ,a{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* =Reset
+-----------------------------------------------------------------------------*/
+
+body, h1, h2, h3, h4, h5, h6, p, pre, blockquote, dl, dt, dd, ul, ol, li, form, fieldset, legend, input, textarea, button, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset, img {
+  border: none;
+}
+
+/*caption, strong, th { font-weight:normal; }*/
+
+/*address, cite, dfn, em, var { font-style: normal; }*/
+
+/*code, kbd, pre, samp, tt { font-family: "Courier New", Courier, monospace; }*/
+
+ul, ol {
+  list-style: none outside;
+}
+
+caption, th {
+  text-align: left;
+}
+
+q:before, q:after {
+  content: '';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+select, input, button, textarea {
+  font-size: 100%;
+}
+
+textarea {
+  overflow-y: auto;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+body {
+  _word-break: break-all;
+}
+
+i {
+  font-style: normal;
+  text-decoration: none;
+}
+
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+html, legend {
+  color: #333;
+  background: #FFF;
+}
+
+body {
+  font: 12px/1.5 "Lucida Grande", arial, helvetica, sans-serif;
+}
+
+a, a:active, a:focus {
+  color: #666;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+hr {
+  color: #E4E4E4;
+  background-color: #E4E4E4;
+  border: none;
+  height: 1px;
+}
+
+del {
+  color: #CCC;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  _font-size: 100%;
+  _font-weight: normal;
+}
+
+select, input, button, textarea {
+  _font-size: 100%;
+}
+
+/* =Common class
+-----------------------------------------------------------------------------*/
+
+/*--=Basic Class--*/
+
+.fl {
+  float: left;
+  _display: inline;
+}
+
+.fr {
+  float: right;
+  _display: inline;
+}
+
+.tl {
+  text-align: left;
+}
+
+.tc {
+  text-align: center;
+}
+
+.tr {
+  text-align: right;
+}
+
+/*字体*/
+
+.f10 {
+  font-size: 10px;
+}
+
+.f11 {
+  font-size: 11px;
+}
+
+.f12 {
+  font-size: 12px;
+}
+
+.f13 {
+  font-size: 13px;
+}
+
+.f14 {
+  font-size: 14px;
+}
+
+.f15 {
+  font-size: 15px;
+}
+
+.f16 {
+  font-size: 16px;
+}
+
+.f17 {
+  font-size: 17px;
+}
+
+.f18 {
+  font-size: 18px;
+}
+
+.f19 {
+  font-size: 19px;
+}
+
+.f20 {
+  font-size: 20px;
+}
+
+.f21 {
+  font-size: 21px;
+}
+
+.f22 {
+  font-size: 22px;
+}
+
+.f23 {
+  font-size: 23px;
+}
+
+.f24 {
+  font-size: 24px;
+}
+
+.f25 {
+  font-size: 25px;
+}
+
+.fb {
+  font-weight: bold;
+}
+
+.fn {
+  font-weight: normal;
+}
+
+.noline {
+  text-decoration: none;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.ml0 {
+  margin-left: 0!important;
+}
+
+.mr0 {
+  margin-right: 0!important;
+}
+
+.mt5 {
+  margin-top: 5px;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mt15 {
+  margin-top: 15px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mt30 {
+  margin-top: 30px;
+}
+
+.mt50 {
+  margin-top: 50px;
+}
+
+.mr5 {
+  margin-right: 5px;
+}
+
+.mr10 {
+  margin-right: 10px;
+}
+
+.mr15 {
+  margin-right: 15px;
+}
+
+.mr20 {
+  margin-right: 20px;
+}
+
+.mr30 {
+  margin-right: 30px;
+}
+
+.mr50 {
+  margin-right: 50px;
+}
+
+.mb5 {
+  margin-bottom: 5px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mb15 {
+  margin-bottom: 15px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.mb50 {
+  margin-bottom: 50px;
+}
+
+.ml5 {
+  margin-left: 5px;
+}
+
+.ml10 {
+  margin-left: 10px;
+}
+
+.ml15 {
+  margin-left: 15px;
+}
+
+.ml20 {
+  margin-left: 20px;
+}
+
+.ml30 {
+  margin-left: 30px;
+}
+
+.ml50 {
+  margin-left: 50px;
+}
+
+.pt5 {
+  padding-top: 5px;
+}
+
+.pt10 {
+  padding-top: 10px;
+}
+
+.pt15 {
+  padding-top: 15px;
+}
+
+.pt20 {
+  padding-top: 20px;
+}
+
+.pt30 {
+  padding-top: 30px;
+}
+
+.pt50 {
+  padding-top: 50px;
+}
+
+.pr5 {
+  padding-right: 5px;
+}
+
+.pr10 {
+  padding-right: 10px;
+}
+
+.pr15 {
+  padding-right: 15px;
+}
+
+.pr20 {
+  padding-right: 20px;
+}
+
+.pr30 {
+  padding-right: 30px;
+}
+
+.pr50 {
+  padding-right: 50px;
+}
+
+.pb5 {
+  padding-bottom: 5px;
+}
+
+.pb10 {
+  padding-bottom: 10px;
+}
+
+.pb15 {
+  padding-bottom: 15px;
+}
+
+.pb20 {
+  padding-bottom: 20px;
+}
+
+.pb30 {
+  padding-bottom: 30px;
+}
+
+.pb50 {
+  padding-bottom: 50px;
+}
+
+.pl5 {
+  padding-left: 5px;
+}
+
+.pl10 {
+  padding-left: 10px;
+}
+
+.pl15 {
+  padding-left: 15px;
+}
+
+.pl20 {
+  padding-left: 20px;
+}
+
+.pl30 {
+  padding-left: 30px;
+}
+
+.pl50 {
+  padding-left: 50px;
+}
+
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}
+
+.inblock {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  letter-spacing: 0;
+}
+
+.none {
+  display: none;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.hide {
+  width: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: 0 none !important;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.wfill {
+  width: 100%;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.nobor {
+  border: none;
+}
+
+.vm {
+  vertical-align: middle;
+  _vertical-align: bottom;
+}
+
+.zoom {
+  zoom: 1;
+}
+
+/*clearfix*/
+
+.clearfix:after, .wrap:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden
+}
+
+.clearfix, .wrap {
+  /**+height: 1%*/
+}
+
+/*避免合并移动端冲突*/
+
+/*修改lzy_allAttr不能居中问题*/
+
+.lzy_allAttr {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/*修改lzy_Customized没有overflow: hidden问题*/
+
+.lzy_Customized {
+  overflow: hidden;
+}
+
+/*导航logo阴影*/
+
+.navbar .login_img {
+  box-shadow: 2px 2px 10px rgba(67, 73, 106, .2);
+}
+
+/*二级标题*/
+
+.public_title>h2 {
+  /*font-family: fzqk, hwst;*/
+}
+
+/*登山热门锦囊*/
+
+.rc_public_title .p1 {
+  /*font-family: fzqk, hwst;*/
+}
+
+/*热门攻略标题*/
+
+.ts_yj_text_middle .ts_text4 {
+  /*font-family: fzqk, hwst;*/
+}
+
+/*热门攻略标题二级*/
+
+.ts_box .rc_tab_item2 p {
+  /*font-family: fzqk, hwst;*/
+}
+
+.ts_box .rc_tab_item2 p:hover {
+  cursor: pointer;
+}
+
+/*预定中心二级tab*/
+
+.rc_tab_box .rc_tab_item p {
+  /*font-family: fzqk, hwst;*/
+}
+
+/*关于我们*/
+
+.abT_tab_box .abT_tab li>p {
+  /*font-family: fzqk, hwst;*/
+}
+
+.abT_huaShan_profile {
+  /*font-family: fzqk, hwst;*/
+}
+
+
+:not(input, textarea) {
+  user-select: none;
+}

@@ -1,0 +1,29 @@
+/*字体定义*/
+/*方正清刻本悦*/
+@font-face {
+    font-family: fzqk;
+    src: url('../fonts/fangzheng-qingkebenyue-song-simple.eot');
+    src:
+        url('../fonts/fangzheng-qingkebenyue-song-simple.eot?#fonts-spider') format('embedded-opentype'),
+        url('../fonts/fangzheng-qingkebenyue-song-simple.woff') format('woff'),
+        url('../fonts/fangzheng-qingkebenyue-song-simple.TTF') format('truetype'),
+        url('../fonts/fangzheng-qingkebenyue-song-simple.svg') format('svg');
+}
+
+.font-style{
+    font-family: fzqk;
+}
+
+
+.card_4 .box a{
+    padding-left: 0.05rem;
+}
+@media (max-width: 767px) {
+    .more_weather_notice{
+        width: auto;
+    }
+    .ts_qa_items li{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

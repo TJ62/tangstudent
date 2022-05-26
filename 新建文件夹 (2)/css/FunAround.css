@@ -1,0 +1,995 @@
+/*内容*/
+.funH_center3_li2{
+	margin: 0 0.2rem;
+}
+.clearfix{
+	background: url(../images/mountain_path_bg1.png) bottom right no-repeat,url(../images/mountain_path_bg.png) bottom left no-repeat;
+	background-size: 36%;
+}
+/*智慧渭南*/
+
+body {
+	background: #fafafa!important;
+}
+@media (max-width:768px) {
+	.mbmapcs{
+		display: block!important;
+		overflow: hidden;
+	}
+	.mbmapcs img{
+		width: 100%;
+		padding-bottom:1rem;
+	}
+	.place_around_mapbox{
+		/*display: none;*/
+		widows: 100%;
+	}
+				/*------9.28适配移动端--------*/
+
+	.funH_into_li .funH_into_fonts .p1{
+		margin: 0.2rem 0 0 0.6rem;
+	}
+
+	.funH_into_fonts .funH_more{
+		margin: 0.3rem 0 0 0.6rem;
+	}
+	/*10.13修改*/
+	.funH_more{
+		margin:0.3rem auto 0!important;
+		line-height:0.21rem!important;
+	}
+	/*end*/
+	.block-non{
+		display: none;
+	}
+	.funH_center3_li {
+		margin-bottom: 20px;
+	}
+	.funH_center3_ul {
+		margin: 0!important;
+	}
+	.funH_bck{
+		padding-top: 1px!important;
+	}
+	/*10.13修改*/
+	#gmap {
+		display: block;
+		width: 4rem!important;
+		/*background: url(../images/svg/map_big_weinan.svg) no-repeat;*/
+		/*position: relative;*/
+		margin: 0 0 0 0rem!important;
+	}
+	#gmapright {
+		display: block;
+		width: 1.5rem!important;
+		/*height: 2.05rem;*/
+		/*background: url(../images/svg/map_thumbnail_weinan.svg) no-repeat;*/
+		/*position: relative;*/
+		margin: 1rem auto 0;
+	}
+
+}
+
+
+
+
+@media (max-width:1200px) {
+	body {
+		background: #fafafa!important;
+		/*width: 1440px;*/
+	}
+	/*列表移动端适配*/
+	.funH_center3_ul{
+		width: 90%;
+		margin: 0 auto !important;
+	}
+	.funH_center3_li{
+		width: 50%;
+		margin-bottom: 0;
+		padding: 1.5%;
+	}
+	.funH_center3_li2{
+		margin: 0;
+	}
+	.lzy_allAttr{
+		/*该样式导致全部景点页面1200px下  内容隐藏*/
+		/*display: none;*/
+		min-height: 300px;
+		position: relative;
+	}
+	.lzy_share{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+}
+
+
+/*zhiHuiHuashan*/
+.mbmapcs{
+	display: none;
+}
+.funH_banner>img{
+	max-width: 100%;
+	max-height:100%;
+	margin: auto;
+	}
+
+/*周边好玩的去处*/
+
+.funH_bck {
+	background: #f4f5f5;
+	padding-top: 40px;
+}
+
+.public_title {
+	margin-bottom: 20px;
+}
+
+.funF_box {
+	position: relative;
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.funF_swiperbox {
+	padding-top: 22px;
+}
+/*lnn9.29修改*/
+.funH_banner {
+	text-align: center;
+	width: 100%;
+	/*height: 5rem;*/
+	position:relative;
+	background:#fff;
+}
+.funH_banner_text img{
+	/*width:4rem;*/
+	/*height:auto;*/
+	/*right:-1.15rem;*/
+	/*top:1.25rem;*/
+	/*position:absolute;*/
+	width: 100%;
+	height: auto;
+}
+.funH_banner_text{
+	width:100%;
+	height:auto;
+	/*background: url(../images/zhiHuiHuashan.jpg) 0 0 no-repeat;*/
+	/*background-size:124% 100%;*/
+	/*background:cover;*/
+	position:relative;
+}
+/*.funF_banner_img img {
+	width: 100%;
+	height: auto;
+}
+
+.funF_banner {
+	position: relative;
+}
+*/
+.funF_btn_left {
+	background: url(../images/slide_arrows_front.png) 0 0 no-repeat;
+	left: 60px;
+	left: -70px;
+}
+
+.funF_btn_right {
+	background: url(../images/slide_arrows_rear.png) 0 0 no-repeat;
+	right: 70px;
+	right: -70px;
+}
+
+.funF_btn_left,
+.funF_btn_right {
+	width: 50px;
+	height: 50px;
+	background-size: cover;
+	position: absolute;
+	top: 130px;
+}
+
+.funF_btn_left,
+.funF_btn_right:hover {
+	cursor: pointer;
+}
+
+
+
+
+/*走进富平*/
+
+.funH_center {
+	max-width: 1100px;
+	margin: 0 auto;
+	position: relative;
+	/*top: -1rem;*/
+	top: -0.3rem;
+	background: #fff;
+	-moz-box-shadow: 0px 5px 10px #ccc;
+	/* 老的 Firefox */
+	box-shadow: 0px 5px 10px #ccc;
+}
+
+
+/*周边好玩的去处*/
+
+.place_around_mapbox {
+	padding: 30px 0;
+	overflow: hidden;
+}
+/*10.13修改*/
+#gmap {
+	display: block;
+		width: 6rem;
+	/*background: url(../images/svg/map_big_weinan.svg) no-repeat;*/
+	position: relative;
+	margin: 0 0 0 1rem;
+}
+#gmapright {
+	display: block;
+	width: 1.8rem;
+	/*height: 2.05rem;*/
+	/*background: url(../images/svg/map_thumbnail_weinan.svg) no-repeat;*/
+	position: relative;
+	margin: 1rem auto 0;
+}
+#gmap a {
+	color: #000;
+	font-family: arial, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+a#title2,
+a#title2:visited {
+	display: block;
+	width: 550px;
+	height: 617px;
+	padding-top: 260px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	cursor: default;
+	text-decoration: none;
+}
+* html a#title2 {
+	height: 617px;
+	he\ight: 0;
+}
+a#title3,
+a#title3:visited  {
+	display: block;
+	width: 180px;
+	height: 205px;
+	padding-top: 260px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	cursor: default;
+	text-decoration: none;
+}
+* html a#title3 {
+	height: 617px;
+	he\ight: 0;
+}
+/*三门峡*/
+
+a#smx {
+	display: block;
+	width:86px;
+	height: 0;
+	padding-top: 92px;
+	overflow: hidden;
+	position: absolute;
+	left:65px;
+	top:112px;
+}
+
+* html a#smx{
+	height:92px;
+	he\ight: 0;
+	text-indent: -9000px;
+}
+
+a#smx:hover {
+	background: transparent url(../images/smx.png) no-repeat 0 0;
+	overflow: visible;
+	text-indent: -9000px;
+}
+/*运城*/
+
+a#ycs {
+	display: block;
+	width:91px;
+	height: 0;
+	padding-top:78px;
+	overflow: hidden;
+	position: absolute;
+	left:62px;
+	top:65px;
+}
+
+* html a#ycs{
+	height:78px;
+	he\ight: 0;
+	text-indent: -9000px;
+}
+
+a#ycs:hover {
+	background: transparent url(../images/yc.png) no-repeat 0 0;
+	overflow: visible;
+	text-indent: -9000px;
+}
+/*临汾*/
+
+a#lfs{
+	display: block;
+	width:115px;
+	height: 0;
+	padding-top:97px;
+	overflow: hidden;
+	position: absolute;
+	left:69px;
+	top:-2px;
+}
+
+* html a#lfs{
+	height:97px;
+	he\ight: 0;
+	text-indent: -9000px;
+}
+
+a#lfs:hover {
+	background: transparent url(../images/lf.png) no-repeat 0 0;
+	overflow: visible;
+	text-indent: -9000px;
+}
+
+/*富平*/
+
+a#fp {
+	display: block;
+	width:197px;
+	height: 0;
+	padding-top: 193px;
+	overflow: hidden;
+	position: absolute;
+	left:-20px;
+	top:320px;
+}
+
+* html a#fp {
+	height: 193px;
+	he\ight: 0;
+	text-indent: -9000px;
+}
+
+a#fp:hover {
+	background: transparent url(../images/svg/map_weinan_fuping_select.svg) no-repeat 4px -4px;
+	overflow: visible;
+	text-indent: -9000px;
+}
+
+
+/*白水*/
+
+a#bs {
+	display: block;
+	width: 183px;
+	height: 0;
+	padding-top: 170px;
+	overflow: hidden;
+	position: absolute;
+	left:105px;
+	top: 160px;
+}
+
+* html a#bs {
+	height: 170px;
+	he\ight: 0;
+}
+
+a#bs:hover {
+	background: transparent url(../images/svg/map_weinan_baishui_select.svg) no-repeat 0 7px;
+	overflow: visible;
+	text-indent: -9000px;
+}
+
+
+/*韩城*/
+
+a#hc {
+	display: block;
+	width: 198px;
+	height: 0;
+	padding-top:250px;
+	overflow: hidden;
+	position: absolute;
+	left:412px;
+	top:-30px;
+}
+
+* html a#hc {
+	height:250px;
+	he\ight: 0;
+}
+
+a#hc:hover {
+	background: transparent url(../images/svg/map_weinan_hancheng_select.svg) no-repeat 0 3px;
+	height: -20px;
+	overflow: visible;
+	text-indent: -9000px;
+}
+
+
+/*合阳*/
+
+a#hyx {
+	display: block;
+	width:207px;
+	height: 0;
+	padding-top:214px;
+	overflow: hidden;
+	position: absolute;
+	left: 370px;
+	top: 160px;
+}
+
+* html a#hyx {
+	height: 214px;
+	he\ight: 0;
+}
+
+a#hyx:hover {
+	background: transparent url(../images/svg/map_weinan_heyang_select.svg) no-repeat 0 0;
+	overflow: visible;
+	text-indent: -9000px;
+}
+
+
+/*成成*/
+
+a#cc {
+	display: block;
+	width:163px;
+	height: 0;
+	padding-top:325px;
+	overflow: hidden;
+	position: absolute;
+	left: 264px;
+	top:86px;
+}
+
+* html a#cc {
+	height:325px;
+	he\ight: 0;
+}
+
+a#cc:hover {
+	background: transparent url(../images/svg/map_weinan_chengcheng_select.svg) no-repeat -2px 6px;
+	overflow: visible;
+	text-indent: -9000px;
+}
+
+
+/*蒲城*/
+
+a#pc {
+	display: block;
+	width: 234px;
+	height: 0;
+	padding-top: 182px;
+	overflow: hidden;
+	position: absolute;
+	left:120px;
+	top:290px;
+}
+
+* html a#pc {
+	height: 182px;
+	he\ight: 0;
+}
+
+a#pc:hover {
+	background: transparent url(../images/svg/map_weinan_pucheng_select.svg) no-repeat 0 0;
+	overflow: visible;
+	text-indent: -9000px;
+}
+
+
+/*大荔*/
+
+a#dl {
+	display: block;
+	width:260px;
+	height: 0;
+	padding-top:210px;
+	overflow: hidden;
+	position: absolute;
+	left:260px;
+	top:320px;
+}
+
+* html a#dl {
+	height: 210px;
+	he\ight: 0;
+}
+
+a#dl:hover {
+	background: transparent url(../images/svg/map_weinan_dali_select.svg) no-repeat 0 0;
+	overflow: visible;
+	text-indent: -9000px;
+}
+
+
+/*临渭*/
+
+a#lwq {
+	display: block;
+	width: 214px;
+	height: 0;
+	padding-top:240px;
+	overflow: hidden;
+	position: absolute;
+	left:70px;
+	top:455px;
+}
+
+* html a#lwq {
+	height: 240px;
+	he\ight: 0;
+}
+
+a#lwq:hover {
+	background: transparent url(../images/svg/map_weinan_linwei_select.svg) no-repeat 0 0;
+	overflow: visible;
+	text-indent: -9000px;
+}
+
+
+/*华州*/
+
+a#hzq{
+	display: block;
+	width:145px;
+	height: 0;
+	padding-top:200px;
+	overflow: hidden;
+	position: absolute;
+	left:253px;
+	top:499px;
+}
+
+* html a#hzq {
+	height: 200px;
+	he\ight: 0;
+}
+
+a#hzq:hover {
+	background: transparent url(../images/svg/map_weinan_huazhou_select.svg) no-repeat 0 0;
+	overflow: visible;
+	text-indent: -9000px;
+}
+
+
+/*华阴*/
+
+a#hys {
+	display: block;
+	width:171px;
+	height: 0;
+	padding-top:189px;
+	overflow: hidden;
+	position: absolute;
+	left:266px;
+	top:450px;
+}
+
+* html a#hys {
+	height:189px;
+	he\ight: 0;
+}
+
+a#hys:hover {
+	background: transparent url(../images/svg/map_weinan_huayin_select.svg) no-repeat 0 0;
+	overflow: visible;
+	text-indent: -9000px;
+}
+
+
+/*潼关*/
+
+a#tg {
+	display: block;
+	width:148px;
+	height: 0;
+	padding-top:165px;
+	overflow: hidden;
+	position: absolute;
+	left:390px;
+	top:460px;
+}
+
+* html a#tg {
+	height:165px;
+	he\ight: 0;
+}
+
+a#tg:hover {
+	background: transparent url(../images/svg/map_weinan_tonghuan_select.svg) no-repeat 0 0;
+	overflow: visible;
+	text-indent: -9000px;
+}
+.weians_tit{
+	position: absolute;
+	top:1.0rem;
+	left:0.1rem;
+	width: 0.3rem;
+  height: 1.2rem;
+  font-size: 0.28rem;
+  line-height: 1.43;
+  letter-spacing: 1.2px;
+  text-align: center;
+  color: #954848;
+  /*font-family:fzqk,hwst;*/
+}
+
+.hs_hhsjz{
+	/*font-family:fzqk,hwst;*/
+	font-size: 0.2rem;
+  line-height: 1.2;
+  letter-spacing: 0.9px;
+  text-align: center;
+  color: #42494e;
+  margin: 9px 0 9px 0;
+}
+
+.hs_zbtit{
+	font-size: 0.12rem;
+	line-height: 1.67;
+	text-align: justify;
+	color: #42494e;
+	/*margin: 0 0.12rem;*/
+	word-break:break-all;
+	display:-webkit-box;
+	-webkit-line-clamp:3;
+	-webkit-box-orient:vertical;
+	overflow:hidden;
+}
+
+.marginb{
+
+}
+/*走进富平*/
+
+.IntoFuping_P1 {
+	/*font-family:fzqk,hwst;*/
+	padding: 0.8rem 0 0.3rem 0.5rem;
+	font-size: 0.24rem;
+	line-height: 1;
+	letter-spacing: 1px;
+/*	text-align: center;*/
+	color: #42494e;
+	line-height: 1;
+	letter-spacing: 1px;
+	color: #42494e;
+}
+
+.IntoFuping_P2 {
+	/*max-width: 1000px;*/
+	/*font-size:0.16rem;
+	color: #4a5155;*/
+	margin: 0 auto;
+	line-height: 0.35rem;
+	padding:0 0.5rem;
+	/*font-family: PingFangSC;*/
+	font-size: 0.14rem;
+	line-height: 2;
+	text-align: justify;
+	color: #42494e;
+	margin-bottom: 0.45rem;
+}
+
+.funH_into_ul {
+	background: #fff;
+	/*margin-top: 0.45rem;*/
+}
+
+.funH_into_ul .funH_into_li {
+	overflow: hidden;
+}
+
+.funH_into_img,
+.funH_into_fonts {
+	/*width: 550px;*/
+	height: 5.03rem;
+	padding: 0;
+}
+
+.funH_into_img img {
+	width: 100%;
+	height: 100%;
+}
+
+
+/*.funH_into_ul .funH_into_li{}*/
+
+.funH_into_fonts .p1{
+	font-size:0.28rem;
+	color: #42494e;
+	margin: 1.2rem 0 0 0.6rem;
+	padding:0.08rem 0;
+	/*font-family: fangzheng-qingkebenyue-song-simple;*/
+}
+
+.funH_into_fonts .i {
+	display: block;
+	width: 1.06rem;
+	height:0.08rem;
+	background: url(../images/tab_select_red.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	margin-left:0.6rem;
+}
+
+.funH_into_fonts .p2 {
+	font-size:0.16rem;
+	font-size:0.14rem;
+	color: #4d5358;
+	padding: 0.2rem 0.5rem 0 0.6rem;
+	line-height:0.3rem;
+	max-width: 4.5rem;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:2;
+}
+
+.funH_more {
+	color: #42494e;
+	display: block;
+	width: 1.32rem;
+	height:0.33rem;
+	background: url(../images/bt_more_small.png) center no-repeat;
+	background-size: 100% 100%;
+	font-size: 0.14rem;
+	padding-left:0.12rem;
+	line-height:0.28rem;
+	margin:0.5rem 0 0 0.6rem;
+	/*font-family:fzqk,hwst;*/
+}
+
+
+/*funH_into_li2*/
+
+.funH_into_ul .funH_into_li2 .p1 {
+	margin-left:65%;
+}
+
+.funH_into_li2 .i {
+	margin-left:60%;
+}
+
+.funH_into_li2 .p2 {
+	margin-left:10%;
+	height:0.8rem;
+	text-align: left;
+	overflow:hidden;
+text-overflow:ellipsis;
+display:-webkit-box;
+-webkit-box-orient:vertical;
+-webkit-line-clamp:2;
+}
+
+.funH_into_li2 .funH_more {
+	margin-left:55%;
+}
+
+
+/*funH_center3*/
+
+.funH_center3 {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+
+/*唯有美食不可辜负*/
+
+.funH_deliciousFood {}
+
+.funH_center3_ul {
+	overflow: hidden;
+	margin: 0rem 0 0rem 0;
+}
+
+.funH_center3_li {
+	float: left;
+	padding-bottom: 0.3rem
+}
+
+.funH_center3_li img {
+	width: 100%;
+	/*max-height:2.4rem;*/
+	height: 2.4rem;
+}
+
+
+.funH_center3_li .p1 {
+	color: #42494e;
+	font-size:0.2rem;
+	letter-spacing:0.01rem;
+	padding-top:0.1rem;
+}
+
+.funH_center3_li .p2 {
+	color: #b9bcbe;
+	font-size:0.14rem;
+	letter-spacing:0.01rem;
+	overflow: hidden;
+	background: url(../images/svg/icon_location_rim_small.svg) left no-repeat;
+	background-size:0.16rem 0.2rem;
+	padding-left:0.23rem;
+	margin:0.05rem 0;
+	max-width: 100%;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+/*更多*/
+
+.funH_center3_li_more {
+	display: block;
+	width: 2.2rem;
+	height: 0.5rem;
+	margin: 0 auto;
+	background: url(../images/funH_more.png) center no-repeat;
+	background-size: 100% 100%;
+	font-size:0.16rem;
+	color: #42494e;
+	line-height: 0.48rem;
+	padding-left:0.48rem;
+	margin-bottom: 0.8rem;
+	/*font-family:fzqk,hwst;*/
+}
+
+
+ 			/*地图点击*/
+.map-tab-non{
+	display: none;
+}
+.map-tab-block{
+	display: block;
+}
+.ee{
+	display: block!important;
+}
+/*10.16 修改内容*/
+.isimg {
+	margin:0.4rem 0 0.2rem!important;
+}
+.isimg .funH_center3_li .p2{
+	margin:0.1rem 0 0.4rem;
+}
+.ScenicShow{
+	/*margin-top: 0.5rem;*/
+}
+.ScenicShow .textright{
+	text-align: right;
+}
+.ScenicShow img{
+	display: block;
+}
+.ScenicShow .Scenictxt{
+	box-sizing: border-box;
+	padding:1.29rem 0.8rem 0 0.8rem;
+	overflow: hidden;
+}
+.ScenicShow .Scenictxt h5{
+	font-size: 0.28rem;
+    color: #42494e;
+    line-height: 0.5rem;
+    /*font-family:fzqk,hwst;*/
+}
+.ScenicShow .Scenictxt i{
+	display: block;
+	width: 1.06rem;
+    height: 0.08rem;
+    background: url(../images/tab_select_red.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    line-height: 0.08rem;
+    overflow: hidden;
+    border: none;
+    margin: none;
+}
+.ScenicShow .Scenictxt p{
+    /*height: 0.8rem;*/
+    /*text-align: left;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;*/
+	overflow: hidden;
+    display: inline-block;
+    font-size: 0.14rem;
+    color: #4d5358;
+    line-height: 0.3rem;
+    max-width: 3.9rem;
+	min-width: 3.1rem;
+    max-height: 0.6rem;
+    margin: 0.22rem 0 0!important;
+	text-align: left;
+	/*text-indent: 2.5em;*/
+}
+.ScenicShow .Scenictxt a{
+	color: #42494e;
+    display:block;
+    width: 1.32rem;
+    height: 0.33rem;
+    background: url(../images/bt_more_small.png) center no-repeat;
+    background-size: 100% 100%;
+    font-size: 0.14rem;
+    padding-left: 0.12rem;
+    line-height: 0.28rem;
+    margin: 0.5rem 0 0;
+    text-align: left;
+}
+@media (max-width: 767px) {
+	.IntoFuping_P1{
+		padding: 0.3rem 0 0.2rem 0.4rem;
+	}
+	.IntoFuping_P2{
+		padding: 0 0.4rem;
+		font-size:0.18rem;
+		color:#42494e;
+		font-weight: 300;
+		opacity: 0.9;
+	}
+	.ScenicShow .Scenictxt{
+		padding:0.67rem 0.5rem 0;
+	}
+	.ScenicShow .Scenictxt h5{
+		line-height: 0.4rem;
+	}
+	.ScenicShow .Scenictxt i{
+		float:left;
+	}
+	.textright i{
+		float:right!important;
+	}
+	.ScenicShow .Scenictxt p{
+		min-width: 2.5rem;
+		/*max-height: none;*/
+		margin:0.22rem 0 0;
+		font-size: 0.18rem;
+		color: #42494e;
+	}
+	.ScenicShow .Scenictxt a{
+		margin: 0.43rem 0 0!important;
+		font-size:0.14rem;
+		color: #42494e;
+		line-height:0.23rem!important;
+		/*font-family: fzqk,hwst;*/
+	}
+	.isimg{
+		padding:0 0.15rem!important;
+		margin: 0 0 0.15rem!important;
+	}
+	.isimg li{
+		padding: 0 0.1rem!important;
+		margin: 0!important;
+	}
+	.isimg li .p1{
+		padding:0.15rem 0 0;
+		line-height: 0.33rem;
+		font-size:0.24rem;
+		color: #42494e;
+	}
+	.isimg li .p2{
+		margin:0.05rem 0 0.25rem;
+	}
+}
